@@ -1,0 +1,452 @@
+
+.main
+{
+	background-image:url("bg.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.title
+{
+	width:100%;
+	opacity:0.8;
+	position:sticky;
+	top:0px;
+}
+.line
+{
+	margin-bottom:10px;
+}
+.image
+{
+	height:40px;
+	width:50px;
+}
+.logo
+{
+	font-size:50px;
+	color:#bf8040;
+	letter-spacing:5px;
+	font-family:Colonna MT;
+}	
+.menu 
+{
+	background-color:#000000;
+	padding:5px 5px 10px 5px;
+	margin:0px;
+}
+.m
+{
+	display: inline;
+}	
+.m1
+{
+	color:#bf8040;
+	text-decoration: none;
+	background-color: #000000;
+	padding:5px 15px;
+	font-size:20px;
+}
+.book
+{
+	color:#ffffff;
+	text-decoration: none;
+}	
+.active 
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 8px 15px 8px 15px;
+}	
+.m1:hover
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	color: #ffffff;
+	padding:8px 15px 8px 15px;
+}	
+.wlc
+{
+	background-color:#ffffff;
+	opacity:0.9;
+	padding:10px;
+	font-size:40px;
+	text-align:center;
+	margin:150px 450px 300px 450px;
+	color:#e68a00;
+	line-height:50px;
+	font-family:Baskerville Old Face;
+	box-shadow:0 0 10px 10px #bf8040;
+}
+.login
+{
+	background-image: radial-gradient(#e68a00,#ffcc80);
+	border: 3px solid #bf8040;
+	border-radius: 5px;
+	padding:8px 25px;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+}	
+.book:hover
+{
+	background-image:none;
+	font-size:20px;
+}
+.hroom
+{	
+	text-align:center;
+	padding:5px;
+	font-family:Imprint MT Shadow;
+	color: #000000;
+	font-size: 50px;
+	letter-spacing:3;
+}
+.hroom1, .sociallink
+{
+	color:#000000;
+	font-size:25px;
+	font-family:Imprint MT Shadow;
+	text-align:center;
+}
+hr
+{
+	margin:0px;
+}	
+.room
+{
+	float:left;
+	list-style-type:none;
+	margin-bottom:10px;
+}		
+.r1 ,.r2 ,.r3
+{
+	margin: 30px 8px 0px 8px;
+	border:15px solid #cccccc;
+	height:300px;
+	width:380px;
+}
+.r1:hover ,.r2:hover ,.r3:hover
+{
+	border:5px solid #888888;
+	height:320px;
+	width:400px;
+}
+.floor1, .floor2, .floor3
+{
+	padding:10px 2px;
+	margin:0px 8px;
+	width:406px;
+	background-color:#dddddd;
+	font-size:20px;
+	opacity:0.6;
+	margin-bottom:10px;
+}
+.floors1, .floors2, .floors3
+{
+	padding:10px 2px;
+	margin:0px 8px;
+	width:406px;
+	font-size:20px;
+	opacity:0.6;
+	margin-bottom:10px;
+	text-align:justify;
+}
+.showroom
+{
+	text-align:center;
+	letter-spacing:2;
+	font-size:20px;
+	border:2px solid #bf8040;
+	padding:10px;
+	color:#bf8040;
+	margin:10px 570px;
+	float:right;
+}
+.show
+{
+	text-decoration:none;
+	color:#bf8040;
+}
+.about
+{
+	background-color:#eeeeee;
+	padding:20px;
+	overflow:auto;
+	letter-spacing:2px;
+	line-height:30px;
+	font-size:25px;
+}
+.aboutimg
+{
+	float:right;
+	border:20px solid #ffffff;
+}
+.showabout
+{
+	text-align:center;
+	letter-spacing:2;
+	font-size:20px;
+	border:2px solid #bf8040;
+	padding:10px;
+	color:#bf8040;
+	margin:10px 220px;
+	float:left;
+}
+.food
+{
+	background-color:#eeeeee;
+	padding:20px;
+	overflow:auto;
+	letter-spacing:2px;
+	line-height:30px;
+	font-size:25px;
+}
+.item
+{
+	font-size:40px;
+	font-family:Gloucester MT;
+	padding:5px 100px;
+}
+.price
+{
+	font-size:30px;
+	font-family:Gloucester MT;
+	color:#bf8040;
+	padding:5px 100px;
+}
+.hmenu
+{
+	font-size:50px;
+	font-family:Baskerville Old Face;
+	letter-spacing:1px;
+}
+.facilities
+{
+	overflow:auto;
+	background:#ffffff;
+}
+.facimg
+{
+	border:20px solid #dddddd;
+	margin:10px;
+	float:right;
+}	
+.fac
+{
+	height:150px;
+	width:250px;
+	border:5px solid #dddddd;
+    margin:0px 50px;
+}
+.fach
+{
+	text-align:center;
+	padding:10px 2px;
+	margin:0px 8px;
+	width:406px;
+	background-color:#dddddd;
+	font-size:20px;
+	opacity:0.6;
+	margin-bottom:10px;
+}
+.table2
+{
+	float:right;
+}
+.table
+{
+	
+}
+.showdetail
+{
+	text-align:center;
+	letter-spacing:2;
+	font-size:20px;
+	border:2px solid #bf8040;
+	padding:10px;
+	margin:0px 50px;
+	color:#bf8040;
+	float:left;
+}
+.showallfac
+{
+	text-align:center;
+	letter-spacing:2;
+	font-size:20px;
+	border:2px solid #bf8040;
+	padding:10px;
+	margin:0px 600px;
+	color:#bf8040;
+}
+#contact
+{
+	background-color:#dddddd;
+	margin:10px 0px;
+	overflow:auto;
+}
+.legend
+{
+	height:200px;
+	width:300px;
+	float:left;
+	margin:10px 50px 20px 50px;
+	font-size:20px;
+}
+.contacth
+{
+	font-size:20px;
+	font-family:Century Schoolbook;
+	overflow:auto;
+}
+.img
+{
+	margin:0px 100px;
+border-radius:100%;
+height:200px;
+width:200px;
+}
+.td{
+	font-size:50px;
+	font-family:copper;
+}
+.table3
+{
+	text-align:center;
+}
+.review1{
+	font-size:20px;
+}
+.social
+{
+	margin:0px 45px;
+}
+.socialicon
+{
+	margin:0px 270px 20px 270px;
+}
+.social:hover
+{
+	box-shadow:0px 0px 10px 10px #999999;
+}
+@media only screen and (max-width: 600px) 
+{
+	.image
+{
+	height:25px;
+	width:35px;
+}
+	.logo
+{
+	font-size:35px;
+	letter-spacing:4px;
+}
+	.menu 
+{
+	padding:2px 3px 2px 5px;
+	margin:0px;
+}
+	.m1
+{
+	padding:2px 8px;
+	font-size:15px;
+}
+	.active 
+{
+	font-size: 15px;
+	padding: 3px 8px 2px 8px;
+}	
+	.m1:hover
+{
+	padding:3px 8px 2px 8px;
+}
+	.wlc
+{
+	padding:10px;
+	font-size:20px;
+	margin:70px 150;
+	line-height:25px;
+}
+	.login
+{
+	padding:5px 15px;
+	font-size:12px;
+}	
+	.book:hover
+{
+	font-size:15px;
+}
+	.hroom
+{	
+	padding:5px;
+	font-size: 30px;
+	letter-spacing:2;
+}
+	.hroom1
+{
+	font-size:20px;
+}
+	.room
+{
+	float:center;
+	margin-bottom:10px;
+}	
+.aboutimg
+{
+	flex:50%;
+	max-width:90%;
+}
+.about
+{
+	flex:100%;
+	max-width:100%;
+}
+.para
+{
+	margin-right:0px;
+	text-align:justify;
+}
+.r1 ,.r2 ,.r3
+{
+	margin: auto;
+}
+.floor1, .floor2, .floor3
+{
+	margin:auto;
+}
+.showroom
+{
+	margin:10 200;
+}
+.showabout
+{
+	margin:auto;
+	margin-left:140;
+}
+.price
+{
+	padding:0px;
+}
+.fach
+{
+	 margin:0px;
+}
+.form
+{
+	flex:100%;
+	max-width:100%;
+	overflow:auto;
+}
+.socialicon
+{
+	flex:100%;
+	max-width:100%;
+	margin:0px 35px;
+}
+.sociallink
+{	
+	flex:100%;
+	max-width:100%;
+}
+
+}	

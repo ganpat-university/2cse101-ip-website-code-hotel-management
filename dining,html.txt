@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<div class="dining.png">
+<img src="dining.png" width="100%" heigth="50%">
+
+
+</div>

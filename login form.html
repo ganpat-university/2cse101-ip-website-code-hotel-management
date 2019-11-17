@@ -1,0 +1,140 @@
+<html>
+<head>
+<style>
+body
+{
+	background-image:url("bg.png");
+	background-size:100%;
+	background-repeat:no repeat;
+}
+.main
+{
+	background-image:url("bg.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.title
+{
+	width:100%;
+	opacity:0.8;
+	position:sticky;
+	top:0px;
+}
+.line
+{
+	margin-bottom:10px;
+}
+.image
+{
+	height:40px;
+	width:50px;
+}
+.logo
+{
+	font-size:50px;
+	color:#bf8040;
+	letter-spacing:5px;
+	font-family:Colonna MT;
+}	
+.menu 
+{
+	background-color:#000000;
+	padding:5px 5px 10px 5px;
+	margin:0px;
+}
+.m
+{
+	display: inline;
+}	
+.m1
+{
+	color:#bf8040;
+	text-decoration: none;
+	background-color: #000000;
+	padding:5px 15px;
+	font-size:20px;
+}
+.book
+{
+	color:#ffffff;
+	text-decoration: none;
+}	
+.active 
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 8px 15px 8px 15px;
+}	
+.m1:hover
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	color: #ffffff;
+	padding:8px 15px 8px 15px;
+}	
+
+.form
+{
+	padding:10 80;
+	background-color:black;	
+	opacity:0.8;
+	margin:50 400;
+}
+table
+{
+	background-color:black;
+	opacity:0.8;
+}
+.que
+{
+	color:#bf8040;
+	padding:10;
+	font-size:20px;
+}
+.ans
+{
+	background-color:#bf8040;
+	color:white;
+	margin:10;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="title">
+	<ul class="menu"><b>
+	<img src="hotel1.png"  align="bottom" class="image"></img><b class="logo">OTEL</b>
+		<hr color="#bf8040" class="line">
+		<li class="m"><a href="index.html" class="m1">Home</a></li>
+		<li class="m"><a href="gallery.html" class="m1">Photo gallery</a></li>
+		<li class="m"><a href="rooms.html" class="m1">Rooms</a></li>
+		<li class="m"><a href="dinning.html" class="m1">Restaurant</a></li>
+		<li class="m"><a href="facilities.html" class="m1">Facilities</a></li>
+		<li class="m"><a href="#contact" class="m1">Contact us</a></li>
+		</b>
+	</ul>
+	
+	</div>
+<form class="form">
+<table cellspacing="0px" cellpadding="2px" align="center">
+<tr>
+<th class="que">E-mail</th>
+<td><input class="ans" type="email"></td>
+</tr><tr>
+<th class="que">password</th>
+<td><input type="password" class="ans"></td>
+</tr><tr>
+<th class="que">confirm password</th>
+<td><input class="ans" type="password"></td>
+</tr>
+<tr>
+<th class="que">mobile number</th>
+<td><input class="ans" type="number"></td>
+</tr><tr>
+<td><input type="submit" value="Submit" class="btn" name="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" class="btn" name="submit"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

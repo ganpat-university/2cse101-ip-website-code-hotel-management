@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Gallery</title>
+<style>
+body{
+margin:0px;
+}
+.h1
+{
+	text-align:center;
+	font-size:50px;
+	font-family:cooper;
+	color:#bf8040;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 25%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.img:hover{
+	}
+
+.title
+{
+	width:100%;
+	opacity:0.8;
+	position:sticky;
+	top:0px;
+}
+.line
+{
+	margin-bottom:10px;
+}
+.image
+{
+	height:40px;
+	width:50px;
+}
+.logo
+{
+	font-size:50px;
+	color:#bf8040;
+	letter-spacing:5px;
+	font-family:Colonna MT;
+}	
+.menu 
+{
+	background-color:#000000;
+	padding:5px 5px 10px 5px;
+	margin:0px;
+}
+.m
+{
+	display: inline;
+}	
+.m1
+{
+	color:#bf8040;
+	text-decoration: none;
+	background-color: #000000;
+	padding:5px 15px;
+	font-size:20px;
+}
+.book
+{
+	color:#ffffff;
+	text-decoration: none;
+}	
+.active 
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 8px 15px 8px 15px;
+}	
+.m1:hover
+{
+	background-image: radial-gradient(#ffcc80,#e68a00);
+	color: #ffffff;
+	padding:8px 15px 8px 15px;
+}	
+	
+</style>
+</head>
+<body>
+<div class="main">
+<div class="title">
+	<ul class="menu"><b>
+	<img src="hotel1.png"  align="bottom" class="image"></img><b class="logo">OTEL</b>
+		<hr color="#bf8040" class="line">
+		<li class="m"><a href="index.html"  class="m1">Home</a></li>
+		<li class="m"><a href="gallery.html" class="active" class="m1">Photo gallery</a></li>
+		<li class="m"><a href="rooms.html" class="m1">Rooms</a></li>
+		<li class="m"><a href="dinning.html" class="m1">Restaurant</a></li>
+		<li class="m"><a href="facilities.html" class="m1">Facilities</a></li>
+		<li class="m"><a href="#contact" class="m1" >Contact us</a></li>
+		</b>
+	</ul>
+	
+	</div>
+<h1 class="h1">PHOTO GALLERY</h1>
+<center><img src="p1.jpg"></center>
+<div class="row">
+  <div class="column">
+    <img src="p2.jpg">
+    <img src="p3.jpg">
+    <img src="p4.jpg">
+    <img src="p5.jpg">
+    <img src="p6.jpg">
+    <img src="p7.jpg">
+    <img src="p8.png">
+    <img src="p9.jpg">
+    <img src="p10.jpg">
+	<img src="p11.jpg">
+	
+</div>
+<div class="column">
+    <img src="p12.jpg">
+	<img src="p13.jpg">
+	<img src="p14.jpg">
+    <img src="p15.jpg">
+    <img src="p16.jpg">
+    <img src="p17.jpg">
+    <img src="p18.jpg">
+	<img src="r2.png">
+	<img src="r4.png">
+	<img src="r19.png">
+	
+</div>
+<div class="column">
+    <img src="r20.png">
+    <img src="p14.jpg">
+    <img src="p10.jpg">
+    <img src="b1.jpg">
+	<img src="b2.jpg">
+    <img src="b3.jpg">
+    <img src="b4.jpg">
+	<img src="car.png">
+    <img src="hall.png">
+</div>
+<div class="column">
+ 
+  </div> 
+</div>
+</div>
+</body>
+</html>
